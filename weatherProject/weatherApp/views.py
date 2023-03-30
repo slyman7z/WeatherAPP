@@ -21,7 +21,7 @@ def index(request):
             "main": str(list_of_data['weather'][0]['main']),
             "description": str(list_of_data['weather'][0]['description']),
             "icon": str(list_of_data['weather'][0]['icon']),
-    } # 
+    } #make a key value pair of converted response and pass it to a context dictionary
     
     else:
         context = {}
